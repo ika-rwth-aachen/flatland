@@ -7,9 +7,9 @@
  *    \ \_\ \_\ \___/  \ \_\ \___,_\ \_,__/\ \____/\ \__\/\____/
  *     \/_/\/_/\/__/    \/_/\/__,_ /\/___/  \/___/  \/__/\/___/
  * @copyright Copyright 2017 Avidbots Corp.
- * @name	tricycle.h
- * @brief   Tricycle plugin
- * @author  Mike Brousseau
+ * @name	single_track_drive.h
+ * @brief   single track model plugin
+ * @author  Mike Brousseau, Simon Schaefer
  *
  * Software License Agreement (BSD License)
  *
@@ -44,14 +44,6 @@
  *  POSSIBILITY OF SUCH DAMAGE.
  */
 /*    Modified by Institute for Automotive Engineering (ika), RWTH University
- *    All rigths reserved
- *
- *    This file is part of "Self-Driving Lab I - Software Framework".
- *    Redistribution and use in source and binary forms, with or without
- *    modification, are permitted exclusively under the terms defined in
- *    the licese file. You should have received a copy of the license with
- *    this file. If not, please visit:
- *    https://git.rwth-aachen.de/ika/sdl1-ws2019.
  */
 #include <Box2D/Box2D.h>
 #include <flatland_plugins/update_timer.h>
