@@ -72,6 +72,7 @@ add_library(flatland_plugins_lib SHARED
   src/world_modifier.cpp
   src/world_random_wall.cpp
   src/gps.cpp
+  src/single_track_drive.cpp
 )
 
 ament_target_dependencies(flatland_plugins_lib rclcpp flatland_server flatland_msgs pluginlib std_msgs nav_msgs geometry_msgs tf2 tf2_ros tf2_geometry_msgs yaml_cpp_vendor)

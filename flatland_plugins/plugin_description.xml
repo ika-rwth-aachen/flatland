@@ -26,4 +26,7 @@
   <class type="flatland_plugins::RandomWall" base_class_type="flatland_server::WorldPlugin">
     <description>Add random walls into the world</description>
   </class>
+  <class type="flatland_ika_plugins::SingleTrackDrive" base_class_type="flatland_server::ModelPlugin">
+    <description>Ika flatland single track vehicle plugin</description>
+  </class>
 </library>
